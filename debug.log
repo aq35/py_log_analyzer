@@ -1,14 +1,1 @@
 [23-03-10 08:00:31] staging.DEBUG - App\Repositories\UserDonationRepository(168) - 
-App\Models\UserDonation::UNIQUE_COLUMNSの使い方
-[
-    'generate_function' => 関数 generateDonationCode,
-    'wait_us' => 失敗したら0us 待機,
-    'retry_count' => 10 回までリトライ,
-]";
-[23-03-10 08:00:31] staging.DEBUG - App\Repositories\UserPfcardRepository(168) - 
-App\Models\UserPfcard::UNIQUE_COLUMNSの使い方
-[
-    'generate_function' => 関数 generateUserPfcardId,
-    'wait_us' => 失敗したら1000us 待機,
-    'retry_count' => 10 回までリトライ,
-]";
