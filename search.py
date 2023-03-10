@@ -1,6 +1,6 @@
 # 使い方
-# python search.py [検索ワード] [検索対象のファイル名]
-# python search.py "error" log.txt
+# python3 search.py [検索ワード] [検索対象のファイル名]
+# python3 search.py "staging.DEBUG" debug.log
 import re
 import sys
 
